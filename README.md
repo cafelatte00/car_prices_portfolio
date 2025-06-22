@@ -14,7 +14,7 @@ Kaggleの車両価格データ（約2万件）をPythonで整形・保存し、P
 ---
 
 ## 📁 プロジェクト構成
-
+```
 car_prices_portfolio/
 ├── scripts/
 │ ├── data_load.py ← CSVデータの読み込み（pandas）
@@ -26,6 +26,7 @@ car_prices_portfolio/
 ├── images/ ← SQL実行結果のスクリーンショットなど
 ├── requirements.txt ← 使用ライブラリ一覧
 └── README.md ← このファイル
+```
 
 
 ---
