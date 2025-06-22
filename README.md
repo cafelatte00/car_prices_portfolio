@@ -64,7 +64,7 @@ car_prices_portfolio/
 
 ## 📊 集計結果のサンプル
 
-ターボ車ごとの最高価格（MAX）を集計した結果：
+①ターボ車かどうかで最高価格（MAX）を集計した結果：
 
 ![MAX price per is_turbo](images/turbo-max-price.png)
 
@@ -72,6 +72,16 @@ car_prices_portfolio/
 SELECT is_turbo, MAX(price) AS max_price
 FROM car_prices
 GROUP BY is_turbo;
-実行結果は images/ フォルダに保存しています。
+
+② メーカーごとの平均価格上位１０位：
+
+![AVE price per manu](images/manu-ave-price.png)
+
+```sql
+SELECT manufacturer, ROUND(AVG(price)) AS avg_price
+FROM car_prices
+GROUP BY manufacturer
+ORDER BY avg_price DESC
+LIMIT 10;
 
   
