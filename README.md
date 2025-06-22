@@ -76,9 +76,8 @@ GROUP BY is_turbo;
 
 ② メーカーごとの平均価格上位１０位：
 
-```markdown
 ![メーカー別 平均価格上位10位](https://raw.githubusercontent.com/cafelatte00/car_prices_portfolio/main/images/manu-ave-price.png)
-```
+
 
 ```sql
 SELECT manufacturer, ROUND(AVG(price)) AS avg_price
