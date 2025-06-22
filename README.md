@@ -66,7 +66,7 @@ car_prices_portfolio/
 
 ターボ車ごとの最高価格（MAX）を集計した結果：
 
-![MAX price per is_turbo](images/max_price.png)
+![MAX price per is_turbo](images/turbo-max-price.png)
 
 ```sql
 SELECT is_turbo, MAX(price) AS max_price
