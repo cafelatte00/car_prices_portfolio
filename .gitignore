@@ -1,0 +1,15 @@
+# 仮想環境
+venv/
+
+# Pythonキャッシュ
+__pycache__/
+*.py[cod]
+
+# PyCharm設定
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OSファイル
+.DS_Store
