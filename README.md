@@ -1,6 +1,6 @@
 # Car Prices Portfolio
 
-中古車データの前処理とSQL分析を行うポートフォリオプロジェクトです。  
+中古車データの前処理にPythonを使用、PostgreSQLに保存し、SQLでDBから抽出を行うポートフォリオです。  
 Kaggleの車両価格データ（約2万件）をPythonで整形・保存し、PostgreSQLで集計・抽出を行いました。
 
 ---
@@ -33,7 +33,7 @@ car_prices_portfolio/
 
 ##  使用技術
 
-- **Python 3.11**
+- **Python 3**
   - pandas / numpy / sqlalchemy / psycopg2
 - **PostgreSQL**
   - テーブル作成・データ保存・SQL集計
