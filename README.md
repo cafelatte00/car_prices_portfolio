@@ -12,11 +12,13 @@ Kaggleの車両価格データ（約2万件）をPythonで整形・保存し、P
  [Kaggle: Car Prices Notebook / Input Files](https://www.kaggle.com/code/ishan2851/car-prices-noteboook/input?select=train.csv)
 
 ### 元データの状態（train.csv）
+*ファイルが重いためGitHubにはあげておりません。
 
 ![元データのスクリーンショット](https://raw.githubusercontent.com/cafelatte00/car_prices_portfolio/main/images/train.png)
 
 
 ### 前処理後のデータ（cleaned_data.csv）
+*ファイルが重いためGitHubにはあげておりません。
 
 ![整形後のデータ](https://raw.githubusercontent.com/cafelatte00/car_prices_portfolio/main/images/clean.png)
 ---
