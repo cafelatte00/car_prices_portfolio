@@ -11,6 +11,14 @@ Kaggleの車両価格データ（約2万件）をPythonで整形・保存し、P
 
  [Kaggle: Car Prices Notebook / Input Files](https://www.kaggle.com/code/ishan2851/car-prices-noteboook/input?select=train.csv)
 
+### 元データの状態（train.csv）
+
+![元データのスクリーンショット](https://raw.githubusercontent.com/cafelatte00/car_prices_portfolio/main/images/train.png)
+
+
+### 前処理後のデータ（cleaned_data.csv）
+
+![整形後のデータ](https://raw.githubusercontent.com/cafelatte00/car_prices_portfolio/main/images/clean.png)
 ---
 
 ##  プロジェクト構成
@@ -21,8 +29,8 @@ car_prices_portfolio/
 │ ├── transform_data.py ← データ整形処理（欠損値処理、型変換など）
 │ ├── save_to_db.py ← PostgreSQLへの保存処理（SQLAlchemy使用）
 ├── data/
-│ ├── raw/ ← 元データ（除外）
-│ └── processed/ ← 加工済みCSV（除外）
+│ ├── raw/ ← 元データ（重いため除外）
+│ └── processed/ ← 加工済みCSV（重いため除外）
 ├── images/ ← SQL実行結果のスクリーンショットなど
 ├── requirements.txt ← 使用ライブラリ一覧
 └── README.md ← このファイル
