@@ -87,4 +87,16 @@ ORDER BY avg_price DESC
 LIMIT 10;
 ```
 
+③ 年式（prod_year）ごとの平均価格の推移
+
+![年式ごとの平均価格の推移](https://raw.githubusercontent.com/cafelatte00/car_prices_portfolio/main/images/year-avg-price.png
+)
+
+```sql
+SELECT prod_year, ROUND(AVG(price)) AS avg_price, COUNT(*) AS count
+FROM car_prices
+GROUP BY prod_year
+ORDER BY prod_year;
+```
+
   
