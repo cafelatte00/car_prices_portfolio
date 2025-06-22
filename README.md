@@ -72,12 +72,13 @@ car_prices_portfolio/
 SELECT is_turbo, MAX(price) AS max_price
 FROM car_prices
 GROUP BY is_turbo;
+```
 
 ② メーカーごとの平均価格上位１０位：
 
 ```markdown
 ![メーカー別 平均価格上位10位](https://raw.githubusercontent.com/cafelatte00/car_prices_portfolio/main/images/manu-ave-price.png)
-
+```
 
 ```sql
 SELECT manufacturer, ROUND(AVG(price)) AS avg_price
@@ -85,5 +86,6 @@ FROM car_prices
 GROUP BY manufacturer
 ORDER BY avg_price DESC
 LIMIT 10;
+```
 
   
