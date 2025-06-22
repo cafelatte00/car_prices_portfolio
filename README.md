@@ -13,7 +13,7 @@ Kaggleの車両価格データ（約2万件）をPythonで整形・保存し、P
 
 ---
 
-## 📁 プロジェクト構成
+##  プロジェクト構成
 ```
 car_prices_portfolio/
 ├── scripts/
@@ -62,7 +62,7 @@ car_prices_portfolio/
 
 ## SQL分析（PostgreSQL）
 
-## 📊 集計結果のサンプル
+##  集計結果のサンプル
 
 ①ターボ車かどうかで最高価格（MAX）を集計した結果：
 
