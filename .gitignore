@@ -8,12 +8,16 @@ __pycache__/
 # PyCharm設定
 .idea/
 
-# Jupyter
+# Jupyter関連
 .ipynb_checkpoints/
 
-# OSファイル
+# macOS特有ファイル
 .DS_Store
 
-data/*.csv
+# データファイル（Gitに含めない）
+data/**/*.csv
 *.csv
-data/processed/cleaned_data.csv
+
+# ログや一時ファイル
+*.log
+*.sqlite3
