@@ -31,13 +31,13 @@ car_prices_portfolio/
 
 ---
 
-## ⚙️ 使用技術
+##  使用技術
 
 - **Python 3.11**
   - pandas / numpy / sqlalchemy / psycopg2
 - **PostgreSQL**
   - テーブル作成・データ保存・SQL集計
-- **Jupyter / SQL手動実行**
+- **SQL手動実行**
   - クエリ実行結果はスクリーンショットにて記録
 
 ---
@@ -57,13 +57,16 @@ car_prices_portfolio/
 
 - テーブル名：`car_prices`
 - 主キー：`id SERIAL PRIMARY KEY`
-- 各カラムの型は適切に設計（例：`NUMERIC(4,1)`）
 
 ---
 
 ## SQL分析（PostgreSQL）
 
-例：ターボ車かどうかで価格の最高値を抽出
+## 📊 集計結果のサンプル
+
+ターボ車ごとの最高価格（MAX）を集計した結果：
+
+![MAX price per is_turbo](images/max_price.png)
 
 ```sql
 SELECT is_turbo, MAX(price) AS max_price
