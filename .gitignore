@@ -16,3 +16,4 @@ __pycache__/
 
 data/*.csv
 *.csv
+data/processed/cleaned_data.csv
