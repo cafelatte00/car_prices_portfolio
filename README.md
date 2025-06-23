@@ -44,7 +44,7 @@ car_prices_portfolio/
 ##  使用技術
 
 - **Python 3**
-  - pandas / numpy / sqlalchemy / psycopg2
+  - pandas / numpy / sqlalchemy
 - **PostgreSQL**
   - テーブル作成・データ保存・SQL集計
 - **SQL手動実行**
