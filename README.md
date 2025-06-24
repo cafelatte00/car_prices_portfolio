@@ -58,7 +58,7 @@ car_prices_portfolio/
 - `Leather interior`: `"Yes/No"` → `True/False`
 - `Engine volume`: 数値＋ `is_turbo` フラグに分割
 - `Mileage`: `" km"` を除去し `int` に変換
-- `Doors`: `"May"` や `"Mar"` の誤変換修正
+- `Doors`: `ドアの枚数が"May"` や `"Mar"` に誤変換されていたため修正
 - カラム名: 全体を `snake_case` に統一
 
 ---
